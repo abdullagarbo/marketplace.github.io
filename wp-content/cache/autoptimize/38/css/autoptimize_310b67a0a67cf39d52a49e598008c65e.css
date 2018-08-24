@@ -3,11 +3,11 @@
 img.wp-smiley,img.emoji{display:inline !important;border:0 !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0 .07em !important;vertical-align:-.1em !important;background:none !important;padding:0 !important}
 @font-face {
 	font-family: 'Linearicons';
-	src:  url(../../../../plugins/martfury-addons/assets/css/fonts/Linearicons90d2.eot?fgpewa);
-	src:  url(../../../../plugins/martfury-addons/assets/css/fonts/Linearicons90d2.eot?fgpewa#iefix) format('embedded-opentype'),
-	url(../../../../plugins/martfury-addons/assets/css/fonts/Linearicons90d2.ttf?fgpewa) format('truetype'),
-	url(../../../../plugins/martfury-addons/assets/css/fonts/Linearicons90d2.woff?fgpewa) format('woff'),
-	url(../../../../plugins/martfury-addons/assets/css/fonts/Linearicons90d2.svg?fgpewa#Linearicons) format('svg');
+	src:  url(../../../../plugins/martfury-addons/assets/css/../fonts/Linearicons90d2.eot?fgpewa);
+	src:  url(../../../../plugins/martfury-addons/assets/css/../fonts/Linearicons90d2.eot?fgpewa#iefix) format('embedded-opentype'),
+	url(../../../../plugins/martfury-addons/assets/css/../fonts/Linearicons90d2.ttf?fgpewa) format('truetype'),
+	url(../../../../plugins/martfury-addons/assets/css/../fonts/Linearicons90d2.woff?fgpewa) format('woff'),
+	url(../../../../plugins/martfury-addons/assets/css/../fonts/Linearicons90d2.svg?fgpewa#Linearicons) format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
