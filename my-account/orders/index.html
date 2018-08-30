@@ -86,7 +86,8 @@
 								<div class="d-logo">
 									<div class="logo">
 										<a href="../../index.html">
-											<img alt="Martfury - Multi-Vendor &amp; Marketplace eCommerce" src="../../wp-content/uploads/sites/38/2018/01/logo3.png" />
+											<img alt="Martfury - Multi-Vendor &amp; Marketplace eCommerce" src="../../wp-content/uploads/sites/38/2018/01/logo3.png"
+											/>
 										</a>
 									</div>
 									<h1 class="site-title">
@@ -128,7 +129,7 @@
 								</div>
 								<ul class="extras-menu">
 									<li class="extra-menu-item menu-item-wishlist menu-item-yith">
-										<a class="yith-contents" id="icon-wishlist-contents" href="#/">
+										<a class="yith-contents" id="icon-wishlist-contents" href="../../wishlist/index.html">
 											<i class="icon-heart extra-icon" rel="tooltip"></i>
 											<span class="mini-item-counter">
 												0
@@ -149,11 +150,31 @@
 											</div>
 										</div>
 									</li>
-									<li class="extra-menu-item menu-item-account">
+									<li class="extra-menu-item menu-item-account logined">
 										<a href="#/" id="menu-extra-login">
-											<i class="extra-icon icon-user"></i>Logga in
+											<i class="extra-icon icon-user"></i>
 										</a>
-										<a href="#/" class="item-register" id="menu-extra-register">Registrera</a>
+										<ul>
+											<li>
+												<h3>Hello, Abdallah!</h3>
+											</li>
+											<li>												
+											</li>
+											<li>
+												<a href="../dashboard/index.html">Dashboard</a>
+											</li>
+											<li>
+												<a href="../edit-account/index.html">Kontoinställningar</a>
+											</li>
+											<li>
+												<a href="../orders/index.html">Ordershistorik</a>
+											</li>												
+											<li class="line-space">												
+											</li>
+											<li class="logout">
+												<a href="#/">Logout</a>
+											</li>
+										</ul>										
 									</li>
 								</ul>
 							</div>
@@ -216,13 +237,42 @@
 													<a href="../index.html">Logga ut</a>
 												</li>
 											</ul>
-										</nav>										
-										<div class="woocommerce-MyAccount-content">	
-											<div class="woocommerce-message woocommerce-message--info woocommerce-Message woocommerce-Message--info woocommerce-info">
-													<a class="woocommerce-Button button" href="../../index.html">
-														Köp Nu		</a>
-													Ingen order har gjorts än.	
-											</div>											
+										</nav>
+										<div class="woocommerce-MyAccount-content">
+											<table class="woocommerce-orders-table woocommerce-MyAccount-orders shop_table shop_table_responsive my_account_orders account-orders-table">
+												<thead>
+													<tr>
+														<th class="woocommerce-orders-table__header woocommerce-orders-table__header-order-number"><span class="nobr">Order</span></th>
+														<th class="woocommerce-orders-table__header woocommerce-orders-table__header-order-date"><span class="nobr">Datum</span></th>
+														<th class="woocommerce-orders-table__header woocommerce-orders-table__header-order-status"><span class="nobr">Status</span></th>
+														<th class="woocommerce-orders-table__header woocommerce-orders-table__header-order-total"><span class="nobr">Totalt</span></th>
+														<th class="woocommerce-orders-table__header woocommerce-orders-table__header-order-actions"><span class="nobr">Funktion</span></th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr class="woocommerce-orders-table__row woocommerce-orders-table__row--status-processing order">
+														<td class="woocommerce-orders-table__cell woocommerce-orders-table__cell-order-number" data-title="Order">
+															<a href="order-details.html">
+																#2592 </a>
+
+														</td>
+														<td class="woocommerce-orders-table__cell woocommerce-orders-table__cell-order-date" data-title="Date">
+															<time datetime="2018-08-29T06:09:42+00:00">Augusti 29, 2018</time>
+
+														</td>
+														<td class="woocommerce-orders-table__cell woocommerce-orders-table__cell-order-status" data-title="Status">
+															Bearbetning
+														</td>
+														<td class="woocommerce-orders-table__cell woocommerce-orders-table__cell-order-total" data-title="Total">
+															<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span>36:- </span>
+															/st
+														</td>
+														<td class="woocommerce-orders-table__cell woocommerce-orders-table__cell-order-actions" data-title="Actions">
+															<a href="order-details.html" class="woocommerce-button button view">Visa</a>
+														</td>
+													</tr>
+												</tbody>
+											</table>
 										</div>
 									</div>
 								</div>

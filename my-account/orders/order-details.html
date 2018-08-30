@@ -86,7 +86,8 @@
 								<div class="d-logo">
 									<div class="logo">
 										<a href="../../index.html">
-											<img alt="Martfury - Multi-Vendor &amp; Marketplace eCommerce" src="../../wp-content/uploads/sites/38/2018/01/logo3.png" />
+											<img alt="Martfury - Multi-Vendor &amp; Marketplace eCommerce" src="../../wp-content/uploads/sites/38/2018/01/logo3.png"
+											/>
 										</a>
 									</div>
 									<h1 class="site-title">
@@ -220,13 +221,13 @@
 												<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--dashboard">
 													<a href="../dashboard/index.html">Dashboard</a>
 												</li>
-												<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--orders">
+												<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--orders is-active">
 													<a href="../orders/index.html">Order</a>
 												</li>
 												<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--downloads">
 													<a href="../products/index.html">Produkter</a>
 												</li>
-												<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-address is-active">
+												<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-address">
 													<a href="../address/index.html">adress</a>
 												</li>
 												<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-account">
@@ -238,22 +239,110 @@
 											</ul>
 										</nav>
 										<div class="woocommerce-MyAccount-content">
-											<div class="u-columns woocommerce-Addresses col2-set addresses">
-												<div class="u-column1 col-1 woocommerce-Address">
-													<header class="woocommerce-Address-title title">
-														<h3>Fakturaadress</h3>
-													</header>
-													<p>Du har inte konfigurerat den här typen av adress än.</p>
-													<a href="../billing-address/index.html" class="edit">Rediera</a>
+											<p>Order #
+												<mark class="order-number">2592</mark> Placerades på 
+												<mark class="order-date">Augusti 29, 2018</mark> och är för närvarande 
+												<mark class="order-status">Bearbetning</mark>.
+											</p>
+											<section class="woocommerce-order-details">
+												<h2 class="woocommerce-order-details__title">Orderdetaljer</h2>
+												<table class="woocommerce-table woocommerce-table--order-details shop_table order_details">
+													<thead>
+														<tr>
+															<th class="woocommerce-table__product-name product-name">Produkt</th>
+															<th class="woocommerce-table__product-table product-total">Totalt</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr class="woocommerce-table__line-item order_item">
+															<td class="woocommerce-table__product-name product-name">
+																<a href="#/">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+																</a> 
+																<strong class="product-quantity">× 1</strong>
+																<ul class="wc-item-meta">
+																	<li>
+																		<strong class="wc-item-meta-label">Såld av:</strong> 
+																		<p>Gopro</p>
+																	</li>
+																</ul>
+															</td>
+															<td class="woocommerce-table__product-total product-total">
+																<span class="woocommerce-Price-amount amount">
+																	<span class="woocommerce-Price-currencySymbol">SEK </span>36.00
+																</span>
+															</td>
+														</tr>
+													</tbody>
+													<tfoot>
+														<tr>
+															<th scope="row">Delsumma:</th>
+															<td>
+																<span class="woocommerce-Price-amount amount">
+																	<span class="woocommerce-Price-currencySymbol">SEK </span>36.00
+																</span>
+															</td>
+														</tr>
+														<tr>
+															<th scope="row">Frakt:</th>
+															<td>
+																<span class="woocommerce-Price-amount amount">
+																	<span class="woocommerce-Price-currencySymbol">SEK </span>0.00
+																</span>&nbsp;
+																<small class="shipped_via">via gratis frakt</small>
+															</td>
+														</tr>
+														<tr>
+															<th scope="row">Betalningsmetod:</th>
+															<td>Postförskott</td>
+														</tr>
+														<tr>
+															<th scope="row">Totalt:</th>
+															<td>
+																<span class="woocommerce-Price-amount amount">
+																	<span class="woocommerce-Price-currencySymbol">SEK </span>36.00
+																</span>
+															</td>
+														</tr>
+													</tfoot>
+												</table>
+												<div style="clear:both">
+													<table style="width:100%; color: #737373; border: 1px solid #e4e4e4; background:none;" border="0" cellpadding="8" cellspacing="0">
+														<tbody>
+															<tr>
+																<th style="padding:10px 10px; background:none; border-right: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4; width:50%;" align="left" valign="top">Leverantörsinformation</th>
+																<th style="padding:10px 10px;width: 50%; border-bottom: 1px solid #e4e4e4;  background:none;" align="left" valign="top">Meddelande</th>
+															</tr>
+															<tr>
+																<td style="padding:10px 10px; background:none; border-right: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4; width:50%;" align="left" valign="top">
+																	<p>
+																		<strong>Leverantörsnamn </strong><br> Gopro 
+																	</p>
+																	<p>
+																		<strong>Produktnamn </strong> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+																	</p>
+																</td>
+																<td style="padding:10px 10px;width: 50%; border-bottom: 1px solid #e4e4e4;  background:none;" align="left" valign="top"></td>
+															</tr>
+														</tbody>
+													</table>
 												</div>
-												<div class="u-column2 col-2 woocommerce-Address">
-													<header class="woocommerce-Address-title title">
-														<h3>Leveransadress</h3>
-													</header>
-													<p>Du har inte konfigurerat den här typen av adress än.</p>
-													<a href="../shipping-address/index.html" class="edit">Rediera</a>
-												</div>
-											</div>
+											</section>
+											<section class="woocommerce-customer-details">
+												<section class="woocommerce-columns woocommerce-columns--2 woocommerce-columns--addresses col2-set addresses">
+													<div class="woocommerce-column woocommerce-column--1 woocommerce-column--billing-address col-1">
+														<h2 class="woocommerce-column__title">Fakturaadress</h2>
+														<address>
+															Abdallah Jarbou<br>skönsbergsvägen 42A<br>85630 Sundsvall<br>Sweden
+															<p class="woocommerce-customer-details--phone">0730278897</p>
+															<p class="woocommerce-customer-details--email">abdulla.garbo@gmail.com</p>
+														</address>
+													</div><!-- /.col-1 -->
+													<div class="woocommerce-column woocommerce-column--2 woocommerce-column--shipping-address col-2">
+														<h2 class="woocommerce-column__title">Leveransadress</h2>
+														<address>Abdallah Jarbou<br>skönsbergsvägen 42A<br>856 30 Sundsvall<br>Sverige </address>
+													</div><!-- /.col-2 -->
+												</section><!-- /.col2-set -->
+											</section>
 										</div>
 									</div>
 								</div>

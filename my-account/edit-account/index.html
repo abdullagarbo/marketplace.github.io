@@ -128,7 +128,7 @@
 								</div>
 								<ul class="extras-menu">
 									<li class="extra-menu-item menu-item-wishlist menu-item-yith">
-										<a class="yith-contents" id="icon-wishlist-contents" href="#/">
+										<a class="yith-contents" id="icon-wishlist-contents" href="../../wishlist/index.html">
 											<i class="icon-heart extra-icon" rel="tooltip"></i>
 											<span class="mini-item-counter">
 												0
@@ -149,11 +149,31 @@
 											</div>
 										</div>
 									</li>
-									<li class="extra-menu-item menu-item-account">
+									<li class="extra-menu-item menu-item-account logined">
 										<a href="#/" id="menu-extra-login">
-											<i class="extra-icon icon-user"></i>Logga in
+											<i class="extra-icon icon-user"></i>
 										</a>
-										<a href="#/" class="item-register" id="menu-extra-register">Registrera</a>
+										<ul>
+											<li>
+												<h3>Hello, Abdallah!</h3>
+											</li>
+											<li>												
+											</li>
+											<li>
+												<a href="../dashboard/index.html">Dashboard</a>
+											</li>
+											<li>
+												<a href="../edit-account/index.html">Kontoinställningar</a>
+											</li>
+											<li>
+												<a href="../orders/index.html">Ordershistorik</a>
+											</li>												
+											<li class="line-space">												
+											</li>
+											<li class="logout">
+												<a href="#/">Logout</a>
+											</li>
+										</ul>										
 									</li>
 								</ul>
 							</div>
@@ -223,7 +243,9 @@
 
 											<form class="woocommerce-EditAccountForm edit-account" action="" method="post">
 												<p class="woocommerce-form-row woocommerce-form-row--first form-row form-row-first">
-													<label for="account_first_name">Förnamn&nbsp;<span class="required">*</span></label>
+													<label for="account_first_name">Förnamn&nbsp;
+														<span class="required">*</span>
+													</label>
 													<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="account_first_name" id="account_first_name"
 													 autocomplete="given-name" value="">
 												</p>
@@ -231,6 +253,14 @@
 													<label for="account_last_name">Efternamn&nbsp;<span class="required">*</span></label>
 													<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="account_last_name" id="account_last_name"
 													 autocomplete="family-name" value="">
+												</p>
+												<p class="form-row form-row-wide" id="billing_company_field" data-priority="30">
+													<label for="billing_company" class="">Företagsnamn&nbsp;
+															<span class="required">*</span>
+													</label>
+													<span class="woocommerce-input-wrapper">
+														<input type="text" class="input-text " name="billing_company" id="billing_company" placeholder="" value="" autocomplete="organization">
+													</span>
 												</p>
 												<div class="clear"></div>
 
