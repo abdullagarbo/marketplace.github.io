@@ -1,0 +1,81 @@
+#mobile-vermegamenu .nav > li {
+	display: block;
+	width: 100%;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+	padding: 15px 60px 13px;
+}
+#mobile-vermegamenu .jms-vermegamenu {
+	box-shadow: none;
+	text-align: left;
+}
+#mobile-vermegamenu .open > .dropdown-menu {
+	position: static;
+	box-shadow: none;
+	border: 0px;
+	width: 100%;
+	transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+	-moz-transform: none;
+	padding: 0;
+	transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+}
+#mobile-vermegamenu .dropdown-menu >  li > a {
+	font-weight: 500;
+	font-size: 13px;
+	padding: 7px 0px 7px 15px;
+	display: block;
+}
+#mobile-vermegamenu li a {
+    display: block;
+	text-transform: capitalize;
+	border-radius:0px;
+}
+#mobile-vermegamenu #jms-megamenu > li > a {
+	text-transform:uppercase;	
+}
+
+#mobile-vermegamenu img{
+	max-width:100%;
+	margin-bottom:10px;
+}
+#mobile-vermegamenu li > a em {
+	float:right;
+	font-size:15px;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	margin-top:5px;
+	text-align:center;
+}
+
+.vertical-mobile-menu-block {
+	width: 320px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: -320px;
+	background: #fff;
+	box-shadow: 0 15px 15px rgba(0,0,0,0.1);
+	align-items: center;
+	overflow: auto;
+	padding: 100px 0;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	z-index: 1;
+}
+
+.open .vertical-mobile-menu-block{
+	left: 0;
+}
+
+.vertical-mobile-menu-block .nav {
+    padding-bottom: 60px;
+}
